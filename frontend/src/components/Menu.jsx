@@ -1,24 +1,28 @@
 import React from 'react';
+import './Menu.css';
+
 export default function Menu({ setPagina }) {
     return (
-        <nav style={{ padding: '10px', background: '#eee', marginBottom: '20px' }}>
-            <button onClick={() => setPagina('inicio')} style={{
-                marginRight: '10px'
-            }}>Início</button>
+        <nav className="menu-nav">
+            <button className="menu-btn" onClick={() => setPagina('inicio')}>
+                Início
+            </button>
             
-            <button onClick={() => setPagina('equipamentos')} style={{
-                marginRight: '10px'
-            }}>Equipamentos</button>
+            <button className="menu-btn" onClick={() => setPagina('equipamentos')}>
+                Equipamentos
+            </button>
             
-            <button onClick={() => setPagina('cidades')} style={{
-                marginRight: '10px'
-            }}>Cidades</button>
+            <button className="menu-btn" onClick={() => setPagina('cidades')}>
+                Cidades
+            </button>
             
-            <button onClick={() => setPagina('funcionarios')} style={{
-                marginRight: '10px'
-            }}>Funcionários</button>
+            <button className="menu-btn" onClick={() => setPagina('funcionarios')}>
+                Funcionários
+            </button>
             
-            <button onClick={() => setPagina('servicos')}>Serviços</button>
+            <button className="menu-btn" onClick={() => setPagina('servicos')}>
+                Serviços
+            </button>
         </nav>
     );
 }

@@ -1,0 +1,61 @@
+.container-gerenciamento {
+    font-family: Arial, sans-serif;
+}
+
+.form-gerenciamento {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.input-gerenciamento {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-principal {
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-cancelar {
+    margin-left: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #ccc;
+    border: none;
+    border-radius: 4px;
+}
+
+.item-lista {
+    margin-bottom: 12px;
+}
+
+.btn-editar {
+    margin-left: 15px;
+    padding: 4px 10px;
+    cursor: pointer;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-excluir {
+    margin-left: 10px;
+    padding: 4px 10px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
